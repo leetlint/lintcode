@@ -1,0 +1,2 @@
+# lintcode
+Practice makes perfect.
