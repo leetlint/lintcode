@@ -9,8 +9,6 @@
  *     }
  * }
  */
-
-
 class ResultType {
     public int r2a, a2a;
     public ResultType (int r2a, int a2a) {
@@ -26,6 +24,7 @@ public class Solution {
      */
     public int maxPathSum(TreeNode root) {
         // write your code here
+        System.out.print(helper(root).a2a);
         return helper(root).a2a;
     }
     
@@ -43,5 +42,3 @@ public class Solution {
         return new ResultType(R2A, A2A);
     }
 }
-
-
