@@ -6,7 +6,7 @@ public class Solution {
      * @return: an integer array
      */
     public int[] intersection(int[] nums1, int[] nums2) {
-        // write your code here
+        
         if (nums1 == null || nums2 == null) return null;
         
         Arrays.sort(nums1);
